@@ -13,7 +13,7 @@
 echo "<h1>Hello world</h1>";
 echo "Dnes je " . date("d.m.Y") . "<br>";
 echo "Aktuálny čas je " . date("H:i:s") . "<br>";
-echo "<h2>Zatiaľ to je zaujímavé</h2>"
+echo "<h2>Zatiaľ to je zaujímavé</h2>";
 ?>
 
 </body>
