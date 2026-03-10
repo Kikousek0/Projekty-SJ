@@ -225,6 +225,22 @@ https://templatemo.com/tm-608-daynight-admin
                 <h1 class="greeting" id="greeting">Good morning, Alex</h1>
                 <p class="greeting-sub">Here's what's happening with your projects today.</p>
             </div>
+            <section class="conainer">
+                <div class="row">
+                    <div class="col-100 text-center">
+                        <?php
+                        $hour = date("H");
+                        if ($hour < 12) {
+                        echo "<h3>Dobré ráno maestro</h3>";
+                        } else if($hour < 18) {
+                        echo "<h3>Dobrý deň maestro</h3>";
+                        } else {
+                        echo "<h3>Dobrý večer maestro</h3>";
+                        }
+                        ?>
+                    </div>
+                </div>
+            </section>
 
             <!-- Stats Grid -->
             <div class="stats-grid">
