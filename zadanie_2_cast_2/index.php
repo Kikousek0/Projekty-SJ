@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <?php $file_path = "parts/header.php";
@@ -17,21 +17,21 @@ if(!require($file_path)){
     <main>
       <section class="slides-container">
         <div class="slide fade">
-          <img src="img/banner1.jpg">
+          <img src="img/banner1.jpg" alt="volaco">
           <div class="slide-text">
             Prvý nadpis
           </div>
         </div>
         
         <div class="slide fade">
-          <img src="img/banner2.jpg">
+          <img src="img/banner2.jpg" alt="nieco">
           <div class="slide-text">
             Druhý nadpis
           </div>
         </div>
         
         <div class="slide fade">
-          <img src="img/banner3.jpg">
+          <img src="img/banner3.jpg" alt="hento">
           <div class="slide-text">
             Tretí nadpis
           </div>

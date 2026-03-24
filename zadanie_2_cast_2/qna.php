@@ -49,8 +49,6 @@
               </div>
           <?php } ?>
       </section>
-    </section>
-  </div>
   </main>
   <footer class="container bg-dark text-white">
     <div class="row">
