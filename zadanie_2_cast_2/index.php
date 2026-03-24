@@ -11,14 +11,14 @@
 <body>
     <header class="container main-header">
         <div>
-          <a href="index.html">
+          <a href="index.php">
             <img src="img/logo.png" height="40">
           </a>
         </div>
       <nav class="main-nav">
         <ul class="main-menu" id="main-menu">
-            <li><a href="index.html">Domov</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="index.php">Domov</a></li>
+            <li><a href="portfolio.php">Portfólio</a></li>
             <li><a href="qna.php">Q&A</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
@@ -30,22 +30,26 @@
     
     <main>
       <section class="slides-container">
+          <?php
+          include_once "functions.php";
+            generateSlides("img/banners");
+            ?>
         <div class="slide fade">
-          <img src="img/banner1.jpg">
+          <img src="img/banners/banner1.jpg">
           <div class="slide-text">
             Prvý nadpis
           </div>
         </div>
         
         <div class="slide fade">
-          <img src="img/banner2.jpg">
+          <img src="img/banners/banner2.jpg">
           <div class="slide-text">
             Druhý nadpis
           </div>
         </div>
         
         <div class="slide fade">
-          <img src="img/banner3.jpg">
+          <img src="img/banners/banner3.jpg">
           <div class="slide-text">
             Tretí nadpis
           </div>

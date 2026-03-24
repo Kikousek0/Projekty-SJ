@@ -18,7 +18,7 @@
   <nav class="main-nav">
     <ul class="main-menu" id="main-menu container">
       <li><a href="index.php">Domov</a></li>
-      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="portfolio.php">Portfólio</a></li>
       <li><a href="qna.html">Q&A</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
@@ -41,13 +41,9 @@
       </div>
     </section>
       <section class="container">
-          <?php include "otazky.php";?>
-          <?php for ($i = 0; $i < count($otazky); $i++) { ?>
-              <div class="accordion">
-                  <div class="question"><?php echo $otazky[$i];?></div>
-                  <div class="answer"><?php echo $odpovede[$i];?></div>
-              </div>
-          <?php } ?>
+          <?php include "functions.php";
+            insertQnA("");
+            ?>
       </section>
     </section>
   </div>
