@@ -80,6 +80,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="PHP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0243d9a-2032-428e-bd55-ccf9433faaaa" name="Changes" comment="" />
