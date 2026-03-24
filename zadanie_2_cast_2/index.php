@@ -19,7 +19,7 @@ if(!require($file_path)){
         <div class="slide fade">
           <img src="img/banner1.jpg" alt="volaco">
           <div class="slide-text">
-            Prvý nadpis
+            Boh nám pomáhaj
           </div>
         </div>
         
