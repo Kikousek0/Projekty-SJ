@@ -18,7 +18,7 @@
   <nav class="main-nav">
     <ul class="main-menu" id="main-menu container">
       <li><a href="index.php">Domov</a></li>
-      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="portfolio.php">Portfólio</a></li>
       <li><a href="qna.php">Q&A</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
@@ -52,7 +52,7 @@
         </div>
         <div class="col-50 text-right">
           <h3>Napíšte nám</h3>
-          <form id="contact" action="thankyou.html">
+          <form id="contact" action="thankyou.php">
             <input type="text" placeholder="Vaše meno" id ="meno"  required><br>
             <input type="email" placeholder="Váš email" id="email" required><br>
             <textarea name="" placeholder="Vaša správa" id="sprava"></textarea><br>
