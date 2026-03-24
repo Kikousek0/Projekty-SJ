@@ -16,12 +16,9 @@ if(!require($file_path)){
         ?>
     <main>
       <section class="slides-container">
-        <div class="slide fade">
-          <img src="img/banner1.jpg" alt="volaco">
-          <div class="slide-text">
-            Boh nám pomáhaj
-          </div>
-        </div>
+          <?php include_once "functions.php";
+            generateSlides("img/banners");
+            ?>
         
         <div class="slide fade">
           <img src="img/banner2.jpg" alt="nieco">

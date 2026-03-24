@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0243d9a-2032-428e-bd55-ccf9433faaaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/datas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banners/banner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banners/banner2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banners/banner3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/portfolio8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
     </list>
@@ -53,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Projekty SJ/zadanie_2_cast_2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/Projekty SJ/zadanie_2_cast_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Projekty SJ\zadanie_2_cast_2\parts" />
@@ -110,6 +97,7 @@
       <workItem from="1774372220692" duration="296000" />
       <workItem from="1774372521021" duration="815000" />
       <workItem from="1774377542850" duration="227000" />
+      <workItem from="1774377772784" duration="699000" />
     </task>
     <servers />
   </component>

@@ -43,3 +43,4 @@ function insertQnA() {
         }
         echo '</section>';
 }
+?>
