@@ -43,4 +43,23 @@ function insertQnA() {
         }
         echo '</section>';
 }
+function opisDom() {
+    $json = file_get_contents("data/datas.json");
+    $data = json_decode($json, true);
+    $domy = $data["domy"];
+    echo '<section class="container row">';
+    foreach ($domy as $dom) {
+        echo '
+        <div class="dom-box">
+            <img src="' . $dom["obrazok"] . '" class="dom-img">
+
+            <div class="dom-overlay">
+                <p>Číslo domu: ' . $dom["číslo_domu"] . '</p>
+                <p>Farba strechy: ' . $dom["strecha"] . '</p>
+                <p>Má garáž? ' . $dom["garáž"] . '</p>
+            </div>
+        </div>';
+    }
+    echo '</section>';
+}
 ?>

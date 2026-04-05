@@ -16,7 +16,21 @@
 ],
   "text_banner": {
   "banner1.jpg": "Boh nám pomáhaj",
-  "banner2.jpg": "Druhý nadpis",
-  "banner3.jps": "Tretí nadpis"
-}
+  "banner2.jpg": "Ako som sa sem dostal",
+  "banner3.jps": "Niekto mi určite povie čo tu robím"
+},
+  "domy": {
+    "dom1": {
+      "číslo_domu": "69",
+      "strecha": "antracitová",
+      "garáž": "áno",
+      "obrazok": "img/domy/antracit.jpg"
+    },
+    "dom2": {
+      "číslo_domu": "420",
+      "strecha": "hnedá",
+      "garáž": "nie",
+      "obrazok": "img/domy/hneda.jpg"
+    }
+  }
 }

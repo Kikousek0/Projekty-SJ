@@ -11,29 +11,16 @@
 <body>
 <?php $file_path = "parts/header.php";
 if(!require($file_path)){
-    echo "Failed to load $file_path";
-}
-        ?>
+    echo "Failed to load $file_path";}
+?>
     <main>
       <section class="slides-container">
           <?php include_once "functions.php";
             generateSlides("img/banners");
             ?>
-        
-        <div class="slide fade">
-          <img src="img/banner2.jpg" alt="nieco">
-          <div class="slide-text">
-            Druhý nadpis
-          </div>
-        </div>
-        
-        <div class="slide fade">
-          <img src="img/banner3.jpg" alt="hento">
-          <div class="slide-text">
-            Tretí nadpis
-          </div>
-        </div>
-        
+          <?php include_once "functions.php";
+          pridajPozdrav();
+          ?>
         <a id="prev" class="prev">❮</a>
         <a id="next" class="next">❯</a>
         
@@ -45,6 +32,9 @@ if(!require($file_path)){
           </div>
         </div>
       </section>
+        <?php include_once "functions.php";
+        opisDom();
+        ?>
       <section class="container">
         <div class="row">
           <div class="col-50">
