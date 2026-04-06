@@ -3,7 +3,7 @@ function pridajPozdrav() {
     $hour = date("H");
     if ($hour < 12) {
         echo "<h3>Dobré ráno</h3>";
-    } else if ($hour >= 12 && $hour < 18) {
+    } else if ($hour > 12 && $hour < 18) {
         echo "<h3>Dobrý deň</h3>";
     } else {
         echo "<h3>Dobrý večer</h3>";
@@ -51,7 +51,7 @@ function opisDom() {
     foreach ($domy as $dom) {
         echo '
         <div class="dom-box">
-            <img src="' . $dom["obrazok"] . '" class="dom-img">
+            <img src="' . $dom["obrazok"] . '" class="dom-img" alt="dom">
 
             <div class="dom-overlay">
                 <p>Číslo domu: ' . $dom["číslo_domu"] . '</p>
@@ -61,5 +61,5 @@ function opisDom() {
         </div>';
     }
     echo '</section>';
-}
+} /* nechapem prečo zmeny v css sa neprejavuju na stranke */
 ?>
