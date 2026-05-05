@@ -61,5 +61,5 @@ function opisDom() {
         </div>';
     }
     echo '</section>';
-} /* nechapem prečo zmeny v css sa neprejavuju na stranke */
+}
 ?>
